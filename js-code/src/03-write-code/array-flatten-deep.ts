@@ -45,3 +45,6 @@ export function flattenDeep2(arr: any[]): any[] {
 // // 功能测试
 // const arr = [1, [2, [3, ['a', [true], 'b'], 4], 5], 6]
 // console.info( flattenDeep2(arr) )
+
+
+// 定义一个返回值 然后遍历数组  进行遍历push
