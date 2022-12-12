@@ -3,6 +3,7 @@
  * @author 双越老师
  */
 
+
 export function customNew<T>(constructor: Function, ...args: any[]): T {
     // 1. 创建一个空对象，继承 constructor 的原型
     const obj = Object.create(constructor.prototype)
